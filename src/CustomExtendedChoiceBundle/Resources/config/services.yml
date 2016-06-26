@@ -14,13 +14,13 @@ services:
 
   app.type.language:
     class: %app.type.custom_type.class%
-    arguments: [@app.repository.language, 'language']
+    arguments: [@app.repository.language, %extendedchoice.language%]
     tags:
-      - {name: form.type, alias: 'language'}
+      - {name: form.type, alias: %extendedchoice.language%}
 
   app.type.treatment:
     class: %app.type.custom_type.class%
-    arguments: [@app.repository.treatment, 'treatment']
+    arguments: [@app.repository.treatment, %extendedchoice.treatment%]
     tags:
-      - {name: form.type, alias: 'treatment'}
+      - {name: form.type, alias: %extendedchoice.treatment%}
 

@@ -13,7 +13,6 @@ class Language
 {
     private $language;
     private $treatment;
-    private $sections;
 
     /**
      * @return mixed
@@ -50,25 +49,4 @@ class Language
         $this->treatment = $treatment;
         return $this;
     }
-
-    /**
-     * @return mixed
-     */
-    public function getSections()
-    {
-        return $this->sections;
-    }
-
-    /**
-     * @param mixed $sections
-     * @return Language
-     */
-    public function setSections($sections)
-    {
-        $this->sections = $sections;
-        return $this;
-    }
-
-
-
 }

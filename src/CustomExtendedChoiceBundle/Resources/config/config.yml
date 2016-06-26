@@ -1,0 +1,3 @@
+parameters:
+  extendedchoice.language: language
+  extendedchoice.treatment: treatment
