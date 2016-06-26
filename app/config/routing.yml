@@ -1,0 +1,8 @@
+custom_extended_choice:
+    resource: "@CustomExtendedChoiceBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
